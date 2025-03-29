@@ -1,0 +1,39 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.main-nosotros {
+    background-color: v.$blanco;
+    padding: v.$separacion*2 v.$separacion;
+}
+
+.contenido-nosotros {
+    @include m.tablet{
+        @include m.grid(2, 5rem);
+        align-items: center;
+    }
+
+    .imagen{
+        margin-bottom: v.$separacion*2;
+
+        @include m.tablet{
+            margin-bottom: 0;
+        }
+
+        img {
+            transform: rotate(-5deg);
+            border: 3rem solid v.$blanco;
+            box-shadow: 1rem 1rem 0.5rem -0.7rem v.$primario;
+        }
+    }
+    .texto {
+        p {
+            text-align: justify;
+            line-height: 2rem;
+        }
+    }
+    blockquote {
+        margin: 0;
+        padding: 1rem;
+        border-left: 0.5rem solid v.$primario;
+    }
+}

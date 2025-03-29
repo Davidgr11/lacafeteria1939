@@ -1,0 +1,23 @@
+{
+  "name": "cafeteria-sas-gulp",
+  "version": "1.0.0",
+  "description": "SAS y GULP",
+  "license": "ISC",
+  "author": "David A Gonzalez R",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "gulp": "^5.0.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.86.0"
+  },
+  "browserlist": [
+    "last 2 versions",
+    ">1%", "not dead"
+  ]
+}

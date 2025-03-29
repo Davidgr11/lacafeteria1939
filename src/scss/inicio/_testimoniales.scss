@@ -1,0 +1,22 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+.testimoniales {
+    padding: v.$separacion*2 v.$separacion;
+    background-color: v.$blanco;
+    margin-top: -(v.$separacion+2rem);
+    .testimonial{
+        background-color: v.$terciario;
+        padding: 3rem;
+        max-width: 50rem;
+        margin:0 auto;
+        border-radius: 2rem;
+        line-height: 2rem;
+        text-align: justify;
+        .autor {
+            text-align: right;
+            font-weight: bold;
+            color: v.$primario;
+            font-family: v.$fuenteTerciaria;
+        }
+    }
+}

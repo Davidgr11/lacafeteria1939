@@ -601,7 +601,7 @@ h3 {
     grid-column: 2/5;
   }
   .galeria .imagen:nth-child(8) img {
-    width: 62rem;
+    width: 94rem;
     object-position: center;
   }
   .galeria .imagen:nth-child(9) {

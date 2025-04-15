@@ -18,6 +18,10 @@
   },
   "browserlist": [
     "last 2 versions",
-    ">1%", "not dead"
-  ]
+    ">1%",
+    "not dead"
+  ],
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }

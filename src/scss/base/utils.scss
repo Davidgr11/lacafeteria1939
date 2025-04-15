@@ -1,0 +1,12 @@
+.animate-on-scroll {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.animate__animated {
+    visibility: visible;
+}
+
+.animate__flipInX {
+    animation-duration: 2s;
+}
